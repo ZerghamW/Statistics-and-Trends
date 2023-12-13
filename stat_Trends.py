@@ -1,6 +1,19 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+
+"""
+
+Statistics and Trends using World Bank Data - Part of the coursework assignment...
+
+Author: Muhammad Zergham Khawar
+Uploaded on GitHub as creater.
+
+Date: 05/12/2023
+
+
+"""
+# Loading the necessery modules
+import pandas as pd # for data analysis and wrangling
+import matplotlib.pyplot as plt # for visualisations
+import seaborn as sns # for visualisations
 
 def load_and_transform_data(filepath):
     # Loading and transforming the World Bank dataset
